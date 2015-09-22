@@ -100,8 +100,8 @@ double calcStack::top() const
 }
 ///********************************
 ///Function: isNumber
-///Task:
-///Returns: nothing
+///Task: determines whether the input character is a numerical digit
+///Returns: true if the input is a digit, false if the input is not a digit
 ///********************************
 bool calcStack::isNumber(char test)
 {
